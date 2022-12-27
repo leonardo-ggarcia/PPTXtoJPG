@@ -1,15 +1,24 @@
 {
   "name": "pptx-to-jpg",
   "version": "1.0.0",
-  "description": "Converte slide no formato PPTX para imagem JPG",
+  "description": "Convert slide in PPTX format to JPG image",
   "main": "index.js",
   "type": "module",
+  "keywords": [
+    "pptx-to-jpg",
+    "PPTXtoJPG",
+    "pptx-jpg"
+  ],
   "scripts": {
     "start": "node index.js"
   },
   "author": "Leonardo Garcia",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "node-powershell": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardo-ggarcia/PPTXtoJPG.git"
   }
 }
