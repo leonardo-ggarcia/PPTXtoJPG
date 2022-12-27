@@ -1,4 +1,4 @@
-import { PowerShell } from "node-powershell";
+const { PowerShell } = require('node-powershell');
 
 /**
  * 
@@ -53,4 +53,6 @@ function PPTXtoJPG(inputFile, outputFile){
   
 }
 
-export default PPTXtoJPG;
+module.exports = {
+    PPTXtoJPG
+}
