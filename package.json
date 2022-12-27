@@ -1,6 +1,6 @@
 {
   "name": "pptx-to-jpg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert slide in PPTX format to JPG image",
   "main": "index.js",  
   "keywords": [
